@@ -12,9 +12,18 @@ nav {
     color: #EEE5E9;
     padding: 10px;
 }
+
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-size: large;
+    background-color: #af929d;
+}
+
+li {
+    float: right;
+    margin-right: 20px;
+    color: #727072;
 }
