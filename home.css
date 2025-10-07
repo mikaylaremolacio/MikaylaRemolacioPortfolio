@@ -30,20 +30,21 @@ ul{
 li {
     float: right;
     margin-right: 20px;
-    background-color: #5f718a;
+    background-color: #7285a0;
     border-radius: 8px;
 }
 
 li a {
     display: block;
-    color: #342E37;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 li a:hover {
-    background-color: #7285a0;
+    border-color: #b1bbc9;
     border-radius: 8px;
+    border: 2px solid;
 }
 
 .headline {
@@ -56,4 +57,17 @@ h1 {
     margin-top: 50px;
     margin-bottom: 10px;
     text-decoration: underline;
+    color: #d0d4da;
+}
+
+footer {
+    background-color: #383961;
+    color: #EEE5E9;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: large;
 }
